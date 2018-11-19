@@ -62,10 +62,10 @@ document.writeln('Numero Random CPU è: ' + cpuNumber + "<br>");
 var somma = playerNumber + cpuNumber;
 //console.log(somma);
 
-// controllo se la somma sia pari o dispari
+// Controllare se la somma sia pari o dispari
 
 var sommacheck = giocata(somma);
-console.log(sommacheck);
+//console.log(sommacheck);
 
 if (sommacheck === true) {
 
