@@ -17,7 +17,10 @@ for (var i = word.length - 1; i >= 0; i--) {
   console.log(parolaReverse);
 }
 
-if (word == parolaReverse) {
+// Stampare se la parola inversa è palindroma o NON PALINDROMA
+
+if (word == parolaReverse) // se la parola inserita è uguale alla parola inversa allora è PALINDROMA
+ {
 
   document.writeln('PAROLA PALINDROMA')
 
